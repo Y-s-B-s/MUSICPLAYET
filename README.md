@@ -38,7 +38,7 @@ Copy `example.env` to `.env` and fill it with your credentials.
 
 ### 💵 Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TeamTC/callsmusic-2)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Itz-fork/NexaChannelPlayer)
 
 ## ℹ️ Commands
 
