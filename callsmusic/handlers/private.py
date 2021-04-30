@@ -24,9 +24,9 @@ async def start(_, message: Message):
     await message.reply_text(
         f"""Hello!
 
-Sorry To Say but I Only Works In @Nexa_bots
+Sorry To Say but I Only Works In @NexaBotsUpdates 😇
 
-So Join @NexaBotsUpdates""",
+So Join @NexaBotsUpdates 😌""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
