@@ -22,27 +22,18 @@ from ..helpers.filters import other_filters2
 @Client.on_message(other_filters2)
 async def start(_, message: Message):
     await message.reply_text(
-        f"""I am an open-source @CallsMusic bot, I let you play music in your group’s voice chat.
-
-The commands I currently support are:
-
-/play - play the replied audio file or YouTube video
-/pause - pause the audio stream
-/resume - resume the audio stream
-/skip - skip the current audio stream
-/stop - clear the queue and remove the userbot from the call
-/channel - set chat channel (once set, the bot will play in that channel’s call)
-        """,
+        f"""Bruh!
+I'm useless here! Join **NexaBotsUpdates**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        'Group', url='https://t.me/callsmusicchat',
+                        "🔰️ My Channel 🔰️", url="https://t.me/NexaBotsUpdates"
                     ),
                     InlineKeyboardButton(
-                        'Channel', url='https://t.me/callsmusic',
-                    ),
-                ],
-            ],
-        ),
+                        "⚜️ Group ⚜️", url="https://t.me/Nexa_bots"
+                    )
+                ]
+            ]
+        )
     )
