@@ -47,7 +47,7 @@ async def _(_, message: Message):
         file_path = await converter.convert(youtube.download(url))
     else:
         return await message.reply_text('You did not give me anything to play!')
-    result = await play(message.chat.id, file_path)
+    result = await cplay(message.chat.id, file_path)
     if result != -1:
         await message.reply_text(f'Queued at position {result}!')
     else:
