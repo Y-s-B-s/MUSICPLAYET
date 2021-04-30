@@ -21,7 +21,7 @@ from callsmusic.helpers.filters import command
 from callsmusic.helpers.filters import other_filters
 
 
-@Client.on_message(command('pause') & other_filters)
+@Client.on_message(command('cpause') & other_filters)
 @errors
 @authorized_users_only
 async def _(_, message: Message):
