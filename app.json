@@ -1,0 +1,34 @@
+{
+  "name": "CallsMusic",
+  "description": "Open-source bot to play music in group calls. Powered by https://github.com/pytgcalls/pytgcalls.",
+  "keywords": ["music", "voicechat", "telegram"],
+  "repository": "https://github.com/TeamTC/callsmusic-2",
+  "stack": "container",
+  "env": {
+    "SESSION_NAME": {
+      "description": "A Pyrogram session string.",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "A bot token from @BotFather.",
+      "required": true
+    },
+    "API_ID": {
+      "description": "An app ID from https://my.telegram.org/apps.",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "An app hash from https://my.telegram.org/apps.",
+      "required": true
+    },
+    "SUDO_USERS": {
+      "description": "List of user IDs counted as admin everywhere (separated by space).",
+      "required": true
+    },
+    "DURATION_LIMIT": {
+      "description": "Max audio duration limit for downloads (minutes).",
+      "required": true,
+      "value": "10"
+    }
+  }
+}
