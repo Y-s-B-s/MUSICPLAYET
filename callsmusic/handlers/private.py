@@ -22,8 +22,11 @@ from ..helpers.filters import other_filters2
 @Client.on_message(other_filters2)
 async def start(_, message: Message):
     await message.reply_text(
-        f"""Bruh!
-I'm useless here! Join **NexaBotsUpdates**""",
+        f"""Hello!
+
+Sorry To Say but I Only Works In @Nexa_bots
+
+So Join @NexaBotsUpdates""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -31,7 +34,7 @@ I'm useless here! Join **NexaBotsUpdates**""",
                         "🔰️ My Channel 🔰️", url="https://t.me/NexaBotsUpdates"
                     ),
                     InlineKeyboardButton(
-                        "⚜️ Group ⚜️", url="https://t.me/Nexa_bots"
+                        "⚜️ Support Group ⚜️", url="https://t.me/Nexa_bots"
                     )
                 ]
             ]
