@@ -1,5 +1,7 @@
 # 🎧 Calls Music 2 — The first open-source project based on [PyTgCalls](https://github.com/pytgcalls/pytgcalls)
 
+## Please deploy ooriginal bot because im editing this for my personal use 
+
 ## ✍️ Requirements
 
 - FFmpeg
