@@ -38,7 +38,7 @@ Copy `example.env` to `.env` and fill it with your credentials.
 
 ### 💵 Heroku
 
-[Click here](https://heroku.com/deploy?template=https://github.com/callsmusic/callsmusic-2_heroku/)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TeamTC/callsmusic-2)
 
 ## ℹ️ Commands
 
