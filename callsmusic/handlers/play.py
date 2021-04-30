@@ -27,7 +27,7 @@ from ..helpers.filters import command
 from ..helpers.filters import other_filters
 
 
-@Client.on_message(command('play') & other_filters)
+@Client.on_message(command('cplay') & other_filters)
 @errors
 async def _(_, message: Message):
     audio = get.audio(message.reply_to_message)
@@ -51,4 +51,4 @@ async def _(_, message: Message):
     if result != -1:
         await message.reply_text(f'Queued at position {result}!')
     else:
-        await message.reply_text('Playing...')
+        await message.reply_text('Playing Song At @NexaBotsUpdates')
