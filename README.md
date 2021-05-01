@@ -1,4 +1,4 @@
-# 🎧 Calls Music 2 — The first open-source project based on [PyTgCalls](https://github.com/pytgcalls/pytgcalls)
+# 🎧 Calls Music 2 — The first open-source project based on [PyTgCalls](https://github.com/Y-s-B-s/MUSICPLAYET)
 
 ## Please deploy ooriginal bot because im editing this for my personal use 
 
@@ -38,7 +38,7 @@ Copy `example.env` to `.env` and fill it with your credentials.
 
 ### 💵 Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Y-s-B-s/NexaChannelPlayer)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Y-s-B-s/MUSICPLAYET)
 
 ## ℹ️ Commands
 
