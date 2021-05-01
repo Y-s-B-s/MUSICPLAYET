@@ -51,4 +51,4 @@ async def _(_, message: Message):
     if result != -1:
         await message.reply_text(f'Queued at position {result}!')
     else:
-        await message.reply_text('Playing Song At @NexaBotsUpdates')
+        await message.reply_text('Playing Song At @Animemusicarchive6')
