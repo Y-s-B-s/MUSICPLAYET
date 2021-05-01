@@ -24,17 +24,17 @@ async def start(_, message: Message):
     await message.reply_text(
         f"""Hello!
 
-Sorry To Say but I Only Works In @NexaBotsUpdates 😇
+Sorry To Say but I Only Works In @Animemusicarchive6 😇
 
 So Join @NexaBotsUpdates 😌""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🔰️ My Channel 🔰️", url="https://t.me/NexaBotsUpdates"
+                        "🔰️ My Channel 🔰️", url="https://t.me/Animemusicarchive6"
                     ),
                     InlineKeyboardButton(
-                        "⚜️ Support Group ⚜️", url="https://t.me/Nexa_bots"
+                        "⚜️ Support Group ⚜️", url="https://t.me/Yeageristbots"
                     )
                 ]
             ]
