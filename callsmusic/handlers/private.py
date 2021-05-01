@@ -26,7 +26,7 @@ async def start(_, message: Message):
 
 Sorry To Say but I Only Works In @Animemusicarchive6 😇
 
-So Join @NexaBotsUpdates 😌""",
+So Join @Animemusicarchive6 😌""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
